@@ -1,0 +1,238 @@
+@charset "utf-8";
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; } 
+body, button, input, select, textarea { font:12px/1.5tahoma, arial, \5b8b\4f53; } 
+h1, h2, h3, h4, h5, h6{ font-size:100%; } 
+address, cite, dfn, em, var { font-style:normal; } 
+code, kbd, pre, samp { font-family:couriernew, courier, monospace; } 
+small{ font-size:12px; } 
+ul, ol { list-style:none; } 
+a { text-decoration:none; } 
+sup { vertical-align:text-top; } 
+sub{ vertical-align:text-bottom; } 
+legend { color:#000; } 
+fieldset, img { border:0; } 
+button, input, select, textarea { font-size:100%; } 
+table { border-collapse:collapse; border-spacing:0; }
+@media only screen and (min-width: 320px) {
+  html {
+    font-size: 40px !important; } }
+@media only screen and (min-width: 360px) {
+  html {
+    font-size: 45px !important; } }
+@media only screen and (min-width: 375px) {
+  html {
+    font-size: 50px !important; } }
+@media only screen and (min-width: 412px) {
+  html {
+    font-size: 55px !important; } }
+@media only screen and (min-width: 414px) {
+  html {
+    font-size: 55px !important; } }
+@media only screen and (min-width: 750px) {
+  html {
+    font-size: 90px !important; } }
+@media only screen and (min-width: 768px) {
+  html {
+    font-size: 90px !important; } }
+@media only screen and (min-width: 1024px) {
+  html {
+    font-size: 125px !important; } }
+@media only screen and (min-width: 1280px) {
+  html { 
+    font-size: 125px !important;
+      width: 800px;
+      margin: 0 auto;
+       } }
+
+body{
+  width: 100%;
+  height: 100%;
+  background: #eeeeee;
+}
+header{
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+header img{
+  width: 100%;
+  height: 80%;
+}
+.top{
+  width: 100%;
+  height: 20%;
+  background: #24bb90;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.top span{
+  display: inline-block;
+  width: 70%;
+  font-size: 0.3636rem;
+  color: #fff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.top a{
+  font-size: 0.5rem;
+  color: #fff;
+}
+.top b{
+  color: #fff;
+  width: 15%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.top b img{
+  width: 50%;
+  height: 50%;
+}
+.main{
+  margin-top: 0.2rem;
+  width: 100%;
+  height:5.2727rem;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.phto{
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+}
+.phto p{
+  width: 100%;
+  height: 1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.phto img{
+  width:35%; 
+  height:80% ;
+}
+.main span{
+  display: inline-block;
+  width: 1.3636rem;
+  height: 0.9090rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main span img{
+  width: 80%;
+  height: 80%;
+}
+.main input{
+  background: #24bb90;
+  width:3rem;
+  height: 0.7rem;
+  color: #fff;
+  border:none;
+  border-radius: 0.2rem;
+  font-size: 0.3rem;
+
+}
+h1{
+  height: 0.8rem;
+  font-size: 0.3rem;
+  color: #ccc;
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+}
+section{
+  width: 100%;
+  height: 30%;
+}
+.time{
+  margin-top: 3%;
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: space-around;
+}
+.time span{
+  width: 70%;
+  font-size: 0.3rem;
+  color: #575659;
+}
+.time a{
+  font-size: 0.3rem;
+  color: #ccc;
+}
+.di{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.stop{
+  width: 3.581818rem;
+  height: 1.55454rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+h2{
+  font-size: 0.3rem;
+  color: #ccc;
+  font-weight: normal;
+}
+.stop p{
+  font-size: 0.3rem;
+  color: #ccc;
+}
+.menoy{
+  color:#24bb90;
+  font-size: 0.6rem;
+}
+.menoy a{
+  font-size: 0.3rem;
+}
+footer{
+  background: #fff;
+  width: 100%;
+  height: 1.50909rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+
+}
+footer ul{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+footer ul li{
+  width: 20%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer ul li img{
+  width:45%;
+  height:45%;  
+}
+footer ul li a{
+  font-size: 0.3rem;
+  color: #ccc;
+}
+footer ul li:nth-child(1) a{
+  color: #24bb90;
+}
+

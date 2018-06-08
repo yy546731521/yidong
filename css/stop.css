@@ -1,0 +1,168 @@
+@charset "utf-8";
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; } 
+body, button, input, select, textarea { font:12px/1.5tahoma, arial, \5b8b\4f53; } 
+h1, h2, h3, h4, h5, h6{ font-size:100%; } 
+address, cite, dfn, em, var { font-style:normal; } 
+code, kbd, pre, samp { font-family:couriernew, courier, monospace; } 
+small{ font-size:12px; } 
+ul, ol { list-style:none; } 
+a { text-decoration:none; } 
+sup { vertical-align:text-top; } 
+sub{ vertical-align:text-bottom; } 
+legend { color:#000; } 
+fieldset, img { border:0; } 
+button, input, select, textarea { font-size:100%; } 
+table { border-collapse:collapse; border-spacing:0; }
+@media only screen and (min-width: 320px) {
+  html {
+    font-size: 40px !important; } }
+@media only screen and (min-width: 360px) {
+  html {
+    font-size: 45px !important; } }
+@media only screen and (min-width: 375px) {
+  html {
+    font-size: 50px !important; } }
+@media only screen and (min-width: 412px) {
+  html {
+    font-size: 55px !important; } }
+@media only screen and (min-width: 414px) {
+  html {
+    font-size: 55px !important; } }
+@media only screen and (min-width: 750px) {
+  html {
+    font-size: 90px !important; } }
+@media only screen and (min-width: 768px) {
+  html {
+    font-size: 90px !important; } }
+@media only screen and (min-width: 1024px) {
+  html {
+    font-size: 125px !important; } }
+@media only screen and (min-width: 1280px) {
+  html { 
+    font-size: 125px !important;
+      width: 800px;
+      margin: 0 auto;
+      background: #eeeeee; } }
+body{
+  width: 100%;
+  height: 100%;
+}
+header{
+  width: 100%;
+  height:5.4545rem;
+  background:url(../img/bj.png);
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.phto{
+  width:4.9090rem;
+  height: 1.6363rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.so{
+  width: 35%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  border-radius: 0.8rem 0 0 0.8rem;
+
+}
+.so img{
+  width: 35%;
+  height:35%;
+}
+.phto input{
+  font-size: 0.5rem;
+  width: 65%;
+  height: 100%;
+  color: #24bb90;
+  border-radius: 0 0.8rem 0.8rem  0;
+  outline: none;
+  border:none;
+}
+ol{
+  width: 100%;
+  height: 8.363636rem;
+  display: flex;
+  flex-direction: column;
+ align-items: space-around;
+}
+ol li{
+  width: 100%;
+  height: 1.836363rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.ph{
+  width:20%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ol li img{
+  width: 35%;
+  height: 30%;
+}
+ol li span{
+  display: inline-block;
+  height: 100%;
+  width: 80%;
+  font-size: 0.2rem;
+  color: #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom:  1px solid #c9c9c9;
+  box-sizing: border-box;
+}
+ol li a{
+  width: 1.636363rem;
+  height: 0.5rem;
+  font-size: 0.3rem;
+  color: #434448;
+}
+footer{
+  background: #fff;
+  width: 100%;
+  height: 1.50909rem;
+  position: fixed;
+  border-top: 1px solid #ccc;
+  bottom: 0;
+  left: 0;
+}
+footer ul{
+  width: 100%;
+  height: 100%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+
+}
+footer ul li{
+  width: 20%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer ul li img{
+  width:45%;
+  height:45%;  
+}
+footer ul li a{
+  font-size: 0.3rem;
+  color: #ccc;
+}
+footer ul li:nth-child(3) a{
+  color: #24bb90;
+}
